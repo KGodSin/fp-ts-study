@@ -7,7 +7,8 @@
     "fp-ts": "^2.10.3"
   },
   "scripts": {
-    "eq": "ts-node ./src/eq.ts"
+    "eq": "ts-node ./src/eq.ts",
+    "ord": "ts-node ./src/ord.ts"
   },
   "devDependencies": {
     "ts-node": "^9.1.1",

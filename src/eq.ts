@@ -1,6 +1,7 @@
 import * as EQ from 'fp-ts/Eq'
 import * as A from 'fp-ts/Array'
 import * as F from 'fp-ts/function'
+import { Eq } from 'fp-ts/lib/Ordering'
 
 interface Eq<A> {
   readonly equals: (x: A, y: A ) => boolean
