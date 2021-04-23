@@ -9,7 +9,8 @@
   "scripts": {
     "eq": "ts-node ./src/eq.ts",
     "ord": "ts-node ./src/ord.ts",
-    "semigroup": "ts-node ./src/semigroup.ts"
+    "semigroup": "ts-node ./src/semigroup.ts",
+    "monoid": "ts-node ./src/monoid.ts"
   },
   "devDependencies": {
     "ts-node": "^9.1.1",

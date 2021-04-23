@@ -105,7 +105,7 @@ console.log(isPositiveXY({ x: 1, y: -1 }));
 console.log(isPositiveXY({ x: -1, y: 1 }));
 console.log(isPositiveXY({ x: -1, y: -1 }));
 
-const OptionsSum = O.getApplySemigroup(N.SemigroupSum);
+const OptionsSum = AP.getApplySemigroup(O.Apply)(N.SemigroupSum);
 
 console.log(OptionsSum.concat(O.some(1), O.some(2)))
 
