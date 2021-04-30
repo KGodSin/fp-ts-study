@@ -10,7 +10,8 @@
     "eq": "ts-node ./src/eq.ts",
     "ord": "ts-node ./src/ord.ts",
     "semigroup": "ts-node ./src/semigroup.ts",
-    "monoid": "ts-node ./src/monoid.ts"
+    "monoid": "ts-node ./src/monoid.ts",
+    "functor": "ts-node ./src/functor.ts"
   },
   "devDependencies": {
     "ts-node": "^9.1.1",
